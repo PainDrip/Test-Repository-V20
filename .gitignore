@@ -1,0 +1,27 @@
+# TIA Portal Search Index
+**/SearchIndex/
+
+# TIA Portal cache- ja indeksitiedostot
+**/*.idx
+**/*.plf
+**/*.gen
+
+# TIA Portalin automaattiset projektitiedot
+**/TIA Portal Project.info
+
+# Lokit
+**/*.log
+
+# Käyttäjäkohtaiset tiedostot
+**/*.bak
+**/*.tmp
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# Git GUI / IDE
+.idea/

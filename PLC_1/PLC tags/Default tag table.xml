@@ -47,7 +47,7 @@
       <SW.Tags.PlcTag ID="7" CompositionName="Tags">
         <AttributeList>
           <DataTypeName>Bool</DataTypeName>
-          <LogicalAddress>%Q0.2</LogicalAddress>
+          <LogicalAddress>%Q0.1</LogicalAddress>
           <Name>Program_On</Name>
         </AttributeList>
         <ObjectList>
@@ -57,6 +57,25 @@
                 <AttributeList>
                   <Culture>en-US</Culture>
                   <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Tags.PlcTag>
+      <SW.Tags.PlcTag ID="A" CompositionName="Tags">
+        <AttributeList>
+          <DataTypeName>Bool</DataTypeName>
+          <LogicalAddress>%M100.0</LogicalAddress>
+          <Name>AutoON</Name>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="B" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text>AutoON</Text>
                 </AttributeList>
               </MultilingualTextItem>
             </ObjectList>
